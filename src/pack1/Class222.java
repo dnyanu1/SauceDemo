@@ -1,6 +1,8 @@
 package pack1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -11,7 +13,11 @@ public class Class222 {
 	 System.setProperty("webdriver.edge.driver","C:\\MIcrosoft edge\\msedgedriver.exe");
 	 WebDriver driver2 = new EdgeDriver();
 	 driver2.navigate().to("https://www.google.com");
-	 Thread.sleep(7000) ;
+	 Thread.sleep(6000) ;
+//	 driver2.manage().deleteAllCookies();
+//	 driver2.findElement(By.xpath("")).submit();
+//	 driver2.findElement(By.xpath("")).sendKeys(Keys.ENTER);
+	 //throw exception
 //	 driver2.close();
 //	 driver2.quit();
 //    driver2.navigate().to("https://www.facebook.com");

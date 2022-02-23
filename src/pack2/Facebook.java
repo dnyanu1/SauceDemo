@@ -24,7 +24,7 @@ public class Facebook {
 	WebDriver driver= new EdgeDriver();
 	Thread.sleep(2000);
 	System.out.println("Browser opened successfully");
-	driver.get("https://www.facebook.com");
+	driver.get("https://www.facebook.com"); //url
 	
 	
 	//timestamp
@@ -59,6 +59,7 @@ public class Facebook {
 //	  if (F==true)
 //	  {
 //		  System.out.println("Firstname Textbox in enabled");
+	// Assert.assertTrue(true); TestNG
 //	  }
 //	  else
 //	  {

@@ -28,7 +28,8 @@ public class WebTableHandling
     List<WebElement> columns=new ArrayList<WebElement>(driver.findElements(By.xpath("//table//tbody//tr//th")));
     
     List<WebElement> rows= new ArrayList<WebElement>(driver.findElements(By.xpath("//table//tbody//tr")));
-
+//    int r= rows.lastIndexOf(rows);
+//    int z= columns.lastIndexOf(columns);
     
 //    for(int i=0; i<rows.size(); i++)
 //    {
